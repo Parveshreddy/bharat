@@ -1,0 +1,184 @@
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color:#ff5a00;
+    text-shadow: 5px 5px 5px black;
+}
+.navbar-toggler-icon {
+    background-color: #000000;
+    border: 1px solid #ffffff; /* Add a border with white color */
+}
+
+    
+
+#skills li, i, #projects li, #projects a{
+   
+    font-weight: bold;
+}
+
+#projects .bg-light a{
+    color: black;
+}
+
+#projects .bg-info a{
+    color: white;
+}
+
+
+#projects .col-6 {
+    border-radius: 10px;
+    overflow: hidden; /* To ensure the border-radius is applied correctly */
+}
+
+/* You can also apply the style to the background-color element if needed */
+#projects .col-6[style*="background-color:#212121;"] {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+    #projects {
+        border-radius: 10px;
+        overflow: hidden; 
+    }
+
+    
+    .rounded-section {
+        border-radius: 10px; /* Adjust the value as needed */
+        overflow: hidden; /* Ensure the border-radius is applied correctly */
+    }
+
+
+strong{
+    padding: 20px 10px 20px 40%;
+}
+
+.button{
+    margin-top: 20px;
+}
+
+.role{
+    text-shadow: 2px 2px 5px rgb(0, 242, 255);
+}
+
+.typing, .typing-1{
+    font-size: 30px;
+    margin: 5px 0;
+    color:white;
+    font-weight: 500;
+    text-shadow: 2px 2px 5px black;
+}
+.relative {
+    position: relative;
+}
+  .r{
+    background:rgba(255, 255,255,.1);
+	
+	border:2px solid rgba(255, 255, 255, .2);
+	box-shadow:0 0 10px rgba(0, 0, 0, .2);
+	backdrop-filter:blur(50px);
+	border-radius:10px;
+	color:#fff;
+	
+	margin:20px;
+
+	
+}
+.y{
+    text-align: center;
+}
+  
+.absolute {
+    position: absolute;
+    top: 40px;
+    right: 125px;
+    height: 180%;
+    width: 70%;
+}
+
+.absolute:hover{
+    box-shadow: 10px 10px 10px 10px black;
+    transform: scale(1.2);
+}
+
+.container{
+    padding-top: 50px;
+    color: white;
+  
+}
+.mysection {
+
+    height: 90vh;
+    background-image: url(parvesh.jpg);
+    background-position: center;
+    background-size: cover; /* Use cover for responsive background image */
+    background-repeat: no-repeat;
+   
+}
+
+
+.navbar-nav a.nav-link {
+    color: #fff !important;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav a.nav-link:hover {
+    color:#111010 !important;
+}
+
+.card-body:hover{
+    background-color:#212121;
+}
+
+.myfootersocial{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    display: inline-flex;
+    
+}
+
+.mypic{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    h1{
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .absolute {
+        top: 20px;
+        right: 0px;
+        height: 80%;
+        width: 70%;
+    }
+
+    .mysection {
+        margin-top: 50px;
+        height: auto;
+       
+    }
+
+    .myfootersocial {
+        margin-left: 0;
+    }
+
+    .card {
+        margin-bottom: 50px;
+    }
+
+    strong {
+        padding: 20px 10px;
+    }
+
+    footer{
+        padding-left: 80px;
+    }
+}
